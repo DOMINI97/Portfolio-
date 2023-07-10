@@ -1,0 +1,46 @@
+#Shop {
+  background-color: #1f1f29;
+}
+.ourNew {
+  margin: 0 0 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.wre-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#Shop h1,
+#Shop h2,
+#Shop span,
+#Shop h3,
+#Shop h4 {
+  color: #ffffff;
+}
+#Shop button {
+  display: inline-block;
+  align-items: end;
+  justify-content: end;
+  align-self: self-end;
+}
+.img-container {
+  margin-top: 2px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.img-small {
+  margin-right: 1%;
+  height: 150px;
+  max-width: 50%;
+}
+.img-medium {
+  margin-right: 2%;
+  margin-left: 1%;
+  height: 200px;
+  border: 2px solid #c619a4;
+}
+.img-large {
+  height: 500px;
+}

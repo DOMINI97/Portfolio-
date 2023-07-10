@@ -1,0 +1,13 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222831;
+  color: #ffffff;
+}
+.shop-btn {
+  margin-left: 2%;
+}
+.Links {
+  text-align: left;
+}

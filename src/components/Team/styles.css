@@ -1,0 +1,24 @@
+.TEAM {
+  background-color: #1f1f29;
+}
+.img-team {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  /* column-gap: 15px; */
+  justify-content: space-around;
+  align-items: center;
+}
+.TEAM h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 42px;
+}
+.cont-img {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  /* column-gap: 15px; */
+  justify-content: space-evenly;
+  align-items: center;
+}

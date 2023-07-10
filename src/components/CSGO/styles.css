@@ -1,0 +1,38 @@
+#CSGO {
+  height: auto;
+  background-image: url(./images/Rectangle4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.CSGO-btn {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-btn {
+  height: 50vh;
+  width: 15vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  background-image: url(./images/Rectangle5.png);
+}
+.content-btn:hover {
+  opacity: 0.9;
+  transition: ease-in;
+}
+.team-btn:hover {
+  opacity: 0.9;
+  transition: ease-in;
+}
+.team-btn {
+  height: 50vh;
+  width: 15vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  background-image: url(./images/Rectangle6.png);
+}

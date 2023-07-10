@@ -1,0 +1,10 @@
+#contact {
+  background-color: #171729;
+  color: #fff;
+}
+.contact-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

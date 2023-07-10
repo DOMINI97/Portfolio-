@@ -1,0 +1,48 @@
+.main {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.roller {
+  position: relative;
+  height: 2.5em;
+  overflow: hidden;
+}
+.main h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.throw-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  /* line-height: 91px; */
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.throw-text span {
+  display: inline-block;
+  opacity: 0;
+  animation: throwtext 2s linear forwards;
+}
+
+@keyframes throwtext {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

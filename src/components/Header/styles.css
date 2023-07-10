@@ -1,0 +1,29 @@
+.Navbar {
+  display: flex;
+  color: #ffffff;
+  z-index: 9999;
+  justify-content: space-between;
+  height: 5%;
+}
+.Navbar img {
+  margin-top: 2%;
+  height: 150%;
+  position: relative;
+}
+.Nav-bar {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+.Navbar button {
+  margin-top: 2%;
+  width: 155px;
+  height: 46px;
+  color: #ffffff;
+  background: #00adb5;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+}

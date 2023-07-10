@@ -1,0 +1,91 @@
+/* .Hero {
+  height: 814px;
+  background-color: #1f1f29;
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.itmes {
+  color: #ffffff;
+  position: fixed;
+  top: 50%;
+  left: 0;
+}
+.btns {
+  display: flex;
+  position: fixed;
+  top: 70%;
+  left: 0;
+}
+.btn-View {
+  width: 155px;
+  height: 46px;
+  color: #ffffff;
+  background: #00adb5;
+  border-radius: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  margin-right: 5%;
+  text-align: center;
+}
+.btn-Shop {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px !important;
+  height: 46px;
+  color: #ffffff;
+  background: #00adb5;
+  border-radius: 12px;
+  font-family: "Inter";
+   font-style: normal; 
+} */
+
+.Hero {
+  width: auto;
+  height: 50vh;
+  background-color: #1f1f29;
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.itmes {
+  margin: 0 0 0 5%;
+  height: 35vh;
+  color: #ffffff;
+  display: grid;
+  align-items: end;
+}
+
+.btns {
+  margin: 0 0 0 5%;
+  display: flex;
+  align-items: center;
+}
+
+.btn-View {
+  width: 155px;
+  height: 46px;
+  color: #ffffff;
+  background: #00adb5;
+  border-radius: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.btn-Shop {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px !important;
+  height: 46px;
+  color: #ffffff;
+  background: #00adb5;
+  border-radius: 12px;
+  font-family: "Inter";
+}
